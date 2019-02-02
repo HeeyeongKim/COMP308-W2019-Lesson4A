@@ -1,5 +1,5 @@
 {
-  "name": "190126-lesson3a",
+  "name": "190202-lesson4a",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -17,7 +17,7 @@
     "morgan": "~1.9.0",
     "popper.js": "^1.14.6"
   },
-  "description": "Express Generator Demo",
+  "description": "MongoDB Demo",
   "main": "server.js",
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
@@ -27,5 +27,13 @@
     "@types/node": "^10.12.18"
   },
   "author": "Heeyeong Kim",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HeeyeongKim/COMP308-W2019-Lesson4A.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HeeyeongKim/COMP308-W2019-Lesson4A/issues"
+  },
+  "homepage": "https://github.com/HeeyeongKim/COMP308-W2019-Lesson4A#readme"
 }
