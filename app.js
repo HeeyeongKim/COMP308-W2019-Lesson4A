@@ -19,7 +19,8 @@ mongoDB.once('open', ()=> {
 
 // route setup
 let indexRouter = require('./routes/index');
-let contactRouter = require('./routes/contact')
+let contactRouter = require('./routes/contact');
+let movieRouter = require('./routes/movie');
 
 let app = express();
 
@@ -36,6 +37,7 @@ app.use(express.static(path.join(__dirname, 'node_modules')));
 
 app.use('/', indexRouter);
 app.use('/contact-list', contactRouter);
+app.use('/movie-list', movieRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

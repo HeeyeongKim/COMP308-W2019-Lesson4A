@@ -22,4 +22,9 @@ router.get('/services', (req, res, next) => {
   res.render('index', { title: 'Services' });
 });
 
+router.get('/movie', (req, res, next) => {
+  res.render('index', { title: 'Movie' });
+});
+
+
 module.exports = router;
